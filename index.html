@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savoria | Fine Dining</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  emailjs.init("pM_I61HlRWgrMnCiB");
+</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div class="intro-loader">
+        <!-- <p>Welcome to</p> -->
+        <h1 class="name">savoria</h1>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Savoria</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+<section class="hero" id="home">
+    <img src="images/tara-mae-miller-vkqY-7ZiGS4-unsplash.jpg" alt="restaurant hero">
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+        <p class="hero-sub">Welcome to Savoria</p>
+        <h1>Experience Fine <br>Dining like never before</h1>
+        <p class="hero-desc">Fresh ingredients, bold flavors, unforgettable moments.</p>
+        <div class="hero-btns">
+            <a href="#menu" class="btn btn-primary">Explore Menu</a>
+            <a href="#contact" class="btn btn-outline">Reserve a Table</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/mohanad-karawanchy-3l-ZU7q5zoM-unsplash.jpg" alt="about savoria">
+    </div>
+    <div class="about-content">
+        <p class="section-sub">Our Story</p>
+        <h2>More Than Just a Meal, It's an Experience</h2>
+        <p>At Savoria, we believe that great food is about more than taste — it's about the atmosphere, the people, and the memories created around the table. Founded in 2010, we've been crafting unforgettable dining experiences using only the freshest locally sourced ingredients.</p>
+        <p>Every dish tells a story. Every visit feels like home.</p>
+        <div class="about-stats">
+            <div class="stat">
+                <h3>15+</h3>
+                <p>Years of Excellence</p>
+            </div>
+            <div class="stat">
+                <h3>120+</h3>
+                <p>Menu Items</p>
+            </div>
+            <div class="stat">
+                <h3>50k+</h3>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+        <a href="#contact" class="btn btn-primary" id="btn-">Reserve a Table</a>
+    </div>
+</section>
+
+<!-- MENU -->
+<section class="menu" id="menu">
+    <div class="section-header">
+        <p class="section-sub">What We Offer</p>
+        <h2>Our Popular Dishes</h2>
+        <p class="section-desc">Handcrafted with the finest ingredients, every dish is a masterpiece.</p>
+    </div>
+
+    <div class="menu-grid">
+        <div class="menu-card">
+            <div class="menu-img">
+                <img src="images/salmon.jpg" alt="Grilled Salmon">
+            </div>
+            <div class="menu-info">
+                <div class="menu-top">
+                    <h3>Grilled Salmon</h3>
+                    <span class="price">$24.99</span>
+                </div>
+                <p>Freshly grilled Atlantic salmon served with lemon butter sauce and seasonal vegetables.</p>
+                <span class="menu-tag">Seafood</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-img">
+                <img src="images/beefstew.jpg" alt="Beef Tenderloin">
+            </div>
+            <div class="menu-info">
+                <div class="menu-top">
+                    <h3>Beef stew</h3>
+                    <span class="price">$34.99</span>
+                </div>
+                <p>Premium cut beef stew with red wine reduction and truffle mashed potatoes.</p>
+                <span class="menu-tag">Signature</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-img">
+                <img src="images/pasta.jpg" alt="Truffle Pasta">
+            </div>
+            <div class="menu-info">
+                <div class="menu-top">
+                    <h3>Pasta</h3>
+                    <span class="price">$19.99</span>
+                </div>
+                <p>Handmade pasta tossed in a rich truffle cream sauce topped with parmesan shavings.</p>
+                <span class="menu-tag">Pasta</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-img">
+                <img src="images/salad.jpg" alt="Caesar Salad">
+            </div>
+            <div class="menu-info">
+                <div class="menu-top">
+                    <h3>Caesar Salad</h3>
+                    <span class="price">$12.99</span>
+                </div>
+                <p>Crisp romaine lettuce, house-made caesar dressing, croutons and parmesan cheese.</p>
+                <span class="menu-tag">Salad</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-img">
+                <img src="images/lobster.jpg" alt="Lobster Bisque">
+            </div>
+            <div class="menu-info">
+                <div class="menu-top">
+                    <h3>Lobster dish</h3>
+                    <span class="price">$16.99</span>
+                </div>
+                <p>Velvety smooth lobster bisque with a touch of cream and fresh herbs.</p>
+                <span class="menu-tag">Soup</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-img">
+                <img src="images/cheesecake.jpg" alt="Chocolate Fondant">
+            </div>
+            <div class="menu-info">
+                <div class="menu-top">
+                    <h3>cheesecake</h3>
+                    <span class="price">$10.99</span>
+                </div>
+                <p>Warm Cheesecake fondant with a molten center served with vanilla ice cream.</p>
+                <span class="menu-tag">Dessert</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+    <div class="section-header">
+        <p class="section-sub">What People Say</p>
+        <h2>Our Happy Customers</h2>
+        <p class="section-desc">Real experiences from real people who love Savoria.</p>
+    </div>
+
+    <div class="testimonials-grid">
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Savoria is hands down the best dining experience I've ever had. The truffle pasta melted in my mouth and the ambiance was absolutely stunning."</p>
+            <div class="reviewer">
+                <img src="images/siyuan-VdJBM8Q4uUM-unsplash.jpg" alt="reviewer">
+                <div>
+                    <h4>Emily Johnson</h4>
+                    <span>Food Blogger</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"We celebrated our anniversary here and it was perfect. The staff was incredibly attentive and the beef tenderloin was cooked to perfection."</p>
+            <div class="reviewer">
+                <img src="images/fakhri-labib-ZhBGD4vykCU-unsplash.jpg" alt="reviewer">
+                <div>
+                    <h4>Michael Torres</h4>
+                    <span>Regular Customer</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Every visit to Savoria feels special. The chocolate fondant is a must-try. I bring all my clients here for business dinners — never disappoints."</p>
+            <div class="reviewer">
+                <img src="images/age-cymru-qWyuJHPb3GE-unsplash.jpg" alt="reviewer">
+                <div>
+                    <h4>Jacob harts</h4>
+                    <span>Business Executive</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RESERVATION -->
+<section class="reservation" id="contact">
+    <div class="reservation-content">
+        <p class="section-sub">Book a Spot</p>
+        <h2>Reserve a Table</h2>
+        <p class="section-desc">Fill in the form and we'll confirm your reservation within 24 hours.</p>
+    </div>
+
+    <form class="reservation-form">
+        <div class="form-row">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" id="fullName" placeholder="John Doe">
+                <span class="error-msg" id="nameError"></span>
+            </div>
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" id="email" placeholder="john@email.com">
+                <span class="error-msg" id="emailError"></span>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label>Date</label>
+                <input type="date" id="date">
+                <span class="error-msg" id="dateError"></span>
+            </div>
+            <div class="form-group">
+                <label>Time</label>
+                <input type="time" id="time">
+                <span class="error-msg" id="timeError"></span>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label>Number of Guests</label>
+                <select id="guests">
+                    <option value="">Select guests</option>
+                    <option>1 Person</option>
+                    <option>2 People</option>
+                    <option>3 People</option>
+                    <option>4 People</option>
+                    <option>5+ People</option>
+                </select>
+                <span class="error-msg" id="guestsError"></span>
+            </div>
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" id="phone" placeholder="+1 234 567 8900">
+                <span class="error-msg" id="phoneError"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Special Requests</label>
+            <textarea id="specialRequests" placeholder="Any dietary requirements or special occasions?"></textarea>
+        </div>
+
+        <button type="button" class="btn btn-primary" id="reserveBtn">Confirm Reservation</button>
+    </form>
+    
+    <div class="success-screen" id="successScreen">
+       <div class="success-icon">✓</div>
+          <h2>Reservation Confirmed!</h2>
+          <p class="success-sub">Thank you <span id="successName"></span>, we look forward to seeing you!</p>
+
+    <div class="success-details">
+        <div class="success-detail-item">
+            <span class="detail-label">Date</span>
+            <span class="detail-value" id="successDate"></span>
+        </div>
+        <div class="success-detail-item">
+            <span class="detail-label">Time</span>
+            <span class="detail-value" id="successTime"></span>
+        </div>
+        <div class="success-detail-item">
+            <span class="detail-label">Guests</span>
+            <span class="detail-value" id="successGuests"></span>
+        </div>
+        <div class="success-detail-item">
+            <span class="detail-label">Email</span>
+            <span class="detail-value" id="successEmail"></span>
+        </div>
+    </div>
+
+    <p class="success-email-note">📧 A confirmation has been sent to your email</p>
+
+    <button class="btn btn-primary" id="newReservationBtn">Make Another Reservation</button>
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <h2 class="logo">Savoria</h2>
+            <p>Experience fine dining like never before. Fresh ingredients, bold flavors, unforgettable moments.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-hours">
+            <h4>Opening Hours</h4>
+            <ul>
+                <li>Monday - Friday: <span>11am - 10pm</span></li>
+                <li>Saturday: <span>10am - 11pm</span></li>
+                <li>Sunday: <span>12pm - 9pm</span></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <ul>
+                <li>123 Savoria Street</li>
+                <li>New York, NY 10001</li>
+                <li>info@savoria.com</li>
+                <li>+1 (234) 567 8900</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 Savoria. All rights reserved.</p>
+        <p>Designed with ❤️ for fine dining lovers.</p>
+    </div>
+</footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
